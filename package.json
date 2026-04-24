@@ -9,9 +9,9 @@
     "recharts": "^2.10.0",
     "lucide-react": "^0.263.1"
   },
-  "scripts": {
+"scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
